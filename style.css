@@ -226,7 +226,7 @@ button{
 
 #progress-container{
     margin-top: 0em;
-    margin-left: 90%;
+    margin-left: 86%;
 }
 
 input[type="range"] {
@@ -299,7 +299,7 @@ input[type="range"]:hover::-moz-range-thumb {
 
 #close1, #minimize1, #maximize1{
     position: absolute;
-    margin-top: -12.1em;
+    margin-top: -12.3em;
 }
 #close1{
     margin-left: 31.5em;
@@ -406,7 +406,7 @@ input[type="range"]:hover::-moz-range-thumb {
 
 #draggable-add {
     position: absolute;
-    left: 112em;
+    left: 84em;
     top: 15em;
     width: 29.25em;
     height: 30px;
