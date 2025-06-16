@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="Gif.gif">
+  <title>Music player</title>
+</head>
+<body>
+
+    <div id="draggable-music-player"></div>
+    <div id="music-player">
+        <button id="close" class="music-player-btn"></button>
+        <button id="minimize" class="music-player-btn"></button>
+        <button id="maximize" class="music-player-btn"></button>
+        <div id="songs">
+            <ul class="song-list">
+            </ul>
+        </div>
+        <h2 id="now-playing">Now Playing > </h2>
+        <div id="track-title-container">
+            <p id="track-title">No song selected</p>
+        </div>
+        <img id="gif" src="Gif2.gif" alt="gengar gif">
+        <div id="audio-player">
+
+            <audio id="audioPlayer" src=""></audio>
+
+            <div id="controls">
+                <button id="prev" class="btn">⏮</button>
+                <button id="backward" class="btn"><</button>
+                <button id="play" class="btn">▶</button>
+                <button id="forward" class="btn">></button>
+                <button id="next" class="btn">⏭</button>
+            </div>
+
+
+            <div class="progress-bar-container">
+                <div class="progress-bar"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="progress-container">
+        <input type="range" id="progress" value="1" min="0" max="100" />
+    </div>
+
+    <div id="draggable-add"></div>
+    <div class="add-song">         
+        <form id="uploadForm" method="post" enctype="multipart/form-data">
+            <Label id="location">Song Location > <input type="file" name="upload" id="file-upload"></Label>
+            <button id="submit">Submit</button>
+        </form>
+
+        <input type="text" id="songName" placeholder="Song Name > ">
+
+        <button id="close1"></button>
+        <button id="minimize1"></button>
+        <button id="maximize1"></button>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
