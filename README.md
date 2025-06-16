@@ -14,7 +14,7 @@ A custom-built, pixel-perfect audio player with full drag.
 
 ## 🚀 How to use it
 
-1. Open `index.html` in your browser.
+1. Open [this](https://httpzeni.github.io/Music/) in your browser.
 2. Click the upload window, pick a `.mp3`, give it a name, and hit submit.
 3. Your song appears in the list – click to play.
 4. Control playback with buttons or keyboard.
