@@ -24,7 +24,7 @@ A custom-built, pixel-perfect audio player with full drag.
 
 | Key     | Action            |
 |--------|--------------------|
-| Space  | Play / Pause       |
+| Enter  | Play / Pause       |
 | ←      | Rewind 5s          |
 | →      | Forward 5s         |
 ---------|---------------------
