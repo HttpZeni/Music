@@ -4,13 +4,13 @@ A custom-built, pixel-perfect audio player with full drag.
 
 ## ✨ What it does
 
-- 🎵 Plays `.mp3` files in-browser (yes, including your weird anime remixes)
+- 🎵 Plays `.mp3` files in-browser
 - 🖱️ Drag & Drop GUI (player + upload window)
 - 🧠 Dynamic playlist with custom names
 - 🔊 Volume control, playback control, progress bar
-- 🎮 Keyboard controls (because clicking is for mortals)
+- 🎮 Keyboard controls
 - 🕶️ Gengar GIFs and dark theme vibes
-- 📂 Upload your own songs (local files, nothing gets sent anywhere)
+- 📂 Upload your own songs
 
 ## 🚀 How to use it
 
